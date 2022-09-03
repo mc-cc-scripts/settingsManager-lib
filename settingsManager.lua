@@ -1,8 +1,8 @@
----@class SettingsService
+---@class SettingManager
 --- settingsService.getset(<settingsKey>: String, <content>: any, <defaultContent>: table|string) : any
-SettingsService = {}
+SettingManager = {}
 
-function SettingsService.setget(name, value, defaultOption)
+function SettingManager.setget(name, value, defaultOption)
     if value ~= nil then
         settings.set(name, value);
         return value;
@@ -12,4 +12,4 @@ function SettingsService.setget(name, value, defaultOption)
     return value or defaultOption;
 end
 
-return SettingsService
+return SettingManager
