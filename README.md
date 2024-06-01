@@ -6,7 +6,7 @@ Manages ComputerCraft Settings
 
 # Uses
 
-- ## getset
+## getset
 
   Is used to quickly write content into the specified Settings-Key, or get the current Content.
 
@@ -16,7 +16,7 @@ Manages ComputerCraft Settings
 
 ---
 
-- ## Example
+## Example
 
 ```lua
 local settingsService = require('./libs/settingsService')
