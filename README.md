@@ -10,7 +10,7 @@ Manages ComputerCraft Settings
 
   Is used to quickly write content into the specified Settings-Key, or get the current Content.
 
-- If content is provied, the current content is saved and returned
+- If content is provided, the current content is saved and returned
 - If no content is provided, the current Settings-Content is returned
   - if no current Settings-Content is set, the default-Content is saved and returned
 
