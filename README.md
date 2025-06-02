@@ -1,12 +1,16 @@
-# settingsManager-prog
+
+# Deprecated
+Use (Config-lib)[https://github.com/mc-cc-scripts/config-lib] instead!
+
+## settingsManager-prog
 
 Manages ComputerCraft Settings
 
 `settingsService.getset(<settingsKey>: String, <content>: any, <defaultContent>: table|string) : any`
 
-# Uses
+## Uses
 
-## getset
+### getset
 
   Is used to quickly write content into the specified Settings-Key, or get the current Content.
 
@@ -16,7 +20,7 @@ Manages ComputerCraft Settings
 
 ---
 
-## Example
+### Example
 
 ```lua
 local settingsService = require('./libs/settingsService')
